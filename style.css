@@ -1,0 +1,35 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: wheat;
+    color: brown;
+    
+}
+
+h1{
+    color: black;
+}
+
+.paragrafo{
+    color: red;
+}
+
+p{
+    color: black;
+}
+
+#texto{
+    color: blue;
+    font-size: large;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
