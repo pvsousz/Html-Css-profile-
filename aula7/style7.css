@@ -1,0 +1,21 @@
+#h2{
+    color: #000;
+}
+
+.h3_color_section{
+    color: #e07cda;
+}
+
+.paragrafo_color{
+    color: #4e45ca;
+}
+
+.section_color{
+    color: rgb(236, 80, 22);
+}
+
+body{
+    background-color: rgb(211, 197, 197);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
