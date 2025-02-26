@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pesquisa Torneio</title>
+</head>
+<body>
+    <h2>Pesquisa de Satisfação</h2>
+    <form action="">
+        <label for="">Pesquisa sobre o evento:</label>
+        <input type="search" name="" id="">
+        <br>
+
+        <br>
+        <label for="">Interesse (0 a 10):</label>
+        <br>
+        <input type="range" name="interesse" id="range_interrested" min="0" max="10" step="1" value="2">
+        <br>
+
+        <br>
+        <label for="">Data e hora de inscrição:</label>
+        <input type="datetime-local" name="data_horario" id="date_time" 
+            min="26-02-2025T00:00" max="27-02-2025T23:59">
+        <br>
+
+        <br>
+        <label for="">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        
+        <br>
+        <label for="">Data de nascimento:</label>
+        <input type="date" name="data_nascimento" id="birth_date" 
+            min="1921-01-01" max="2007-01-01">
+        <br>
+
+        <br>
+        <label for="">Telefone:</label>
+        <input type="tel" name="telefone" id="phone" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}">
+        <br>
+
+        <br>
+        <label for="">Upload RG:</label>
+        <input type="file" name="rg" id="rg">
+        <br>
+
+        <br>
+        <label for="">Grau de Satisfação:
+            <input type="number" name="satisfacao" id="satisfaction" min="0" max="10" step="1" value="5">
+        </label>
+        <br>
+
+        
+        <br>
+        <label for="">Comentarios:</label>
+        <br>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="5"></textarea>
+        <br>
+
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+    
+</body>
+</html>
