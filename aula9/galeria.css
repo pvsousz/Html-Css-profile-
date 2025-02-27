@@ -1,0 +1,28 @@
+body{
+    background-color: #c0cae0;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(108, 171, 171);
+    margin: 30px;
+     
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    
+}
+
+figure{
+    text-align: center;
+    
+}
+
+figcaption{
+    font-size: 15px;
+    
+}
