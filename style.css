@@ -9,7 +9,7 @@ img{
 }
 
 body{
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(207, 201, 201);
 }
 
 main{
@@ -19,12 +19,12 @@ main{
 
 .div_intro{
     display: flex;
-    background-color:rgb(237, 237, 237);
+    background-color:rgb(247, 247, 247);
     
 }
 
 .intro{
-    background-color: rgb(237, 237, 237);
+    background-color: rgb(247, 247, 247);
     padding: 50px;
     width: 50%;
     
@@ -32,7 +32,7 @@ main{
 }
 
 .intro_ola{
-    color: rgb(74, 128, 84);
+    color: rgb(58, 146, 74);
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     
@@ -57,5 +57,89 @@ main{
     align-items: center;
     margin: 0 auto;
     height: auto;
+    
 }
 
+
+.tecnologias_secao{
+    max-width: 100%;
+    padding: 50px;
+    background-color: rgb(247, 247, 247);
+    
+}
+
+.tecnologias_sobre{
+    color: rgb(58, 146, 74);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+
+.div_tecnologias{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.paragrafo_tecnologias{
+    color: rgba(0, 0, 0, 0.699);
+    max-width: 50%;
+    
+}
+
+
+.servicos_intro{
+    color: rgb(58, 146, 74);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.servicos_secao{
+    max-width: 100%;
+    padding: 50px;
+    background-color: rgb(247, 247, 247);
+    
+}
+
+.servicos {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    
+    
+}
+
+.linha{
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    
+}
+
+.item {
+    flex: 1; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    text-align: justify; 
+   
+}
+
+.item:hover{
+    background-color: rgb(69, 143, 83);
+    transition: 1s;
+    color: white;
+}
+
+
+.icones_services{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
