@@ -146,7 +146,17 @@ main{
 }
 
 
+
 .carrosel_imagem{
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+
 }
+
+
+.carrosel_text_color{
+    color: rgb(255, 255, 255);
+}
+
+
