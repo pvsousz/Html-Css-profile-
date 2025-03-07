@@ -49,16 +49,12 @@ main{
     
 }
 
-.perfil_imagem{
-    max-width: 100%; 
-    width: 300px;
-    height: 500px;
-    justify-content: center; 
-    align-items: center;
-    margin: 0 auto;
-    height: auto;
-    
-    
+.perfil_imagem {
+    display: block;   /* Garante que a imagem respeite o margin: auto */
+    max-width: 100%;  
+    height: auto;     /* Mantém a proporção da imagem */
+    width: auto;      
+    margin: 0 auto;   
 }
 
 
