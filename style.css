@@ -1,0 +1,229 @@
+img{
+    max-width: 100%;
+    height: auto;
+    width: 30px;
+    height: 30px;
+    margin-left: 7px;
+    margin-top: 12%;
+    
+}
+
+.dropdown-item:focus,
+.dropdown-item:active {
+    background-color: green !important;
+    color: white !important;
+}
+
+
+
+body{
+    background-color: rgb(207, 201, 201);
+}
+
+main{
+    margin-top: 10%;
+    margin: 150px;
+}
+
+.div_intro{
+    display: flex;
+    background-color:rgb(247, 247, 247);
+    
+}
+
+.intro{
+    background-color: rgb(247, 247, 247);
+    padding: 50px;
+    width: 50%;
+    
+    
+}
+
+.intro_ola{
+    color: rgb(58, 146, 74);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.intro_meunome{
+    color: black;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.intro_resumo{
+    color: rgba(0, 0, 0, 0.699);
+    
+}
+
+.perfil_imagem {
+    display: block;   
+    max-width: 100%;  
+    height: auto;     
+    width: auto;      
+    margin: 0 auto;   
+}
+
+
+.tecnologias_secao{
+    max-width: 100%;
+    padding: 50px;
+    background-color: rgb(247, 247, 247);
+    
+}
+
+.tecnologias_sobre{
+    color: rgb(58, 146, 74);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
+}
+
+.div_tecnologias{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.paragrafo_tecnologias{
+    color: rgba(0, 0, 0, 0.699);
+    max-width: 50%;
+    
+}
+
+
+.servicos_intro{
+    color: rgb(58, 146, 74);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.servicos_secao{
+    max-width: 100%;
+    padding: 50px;
+    background-color: rgb(247, 247, 247);
+    
+}
+
+.servicos {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    
+    
+}
+
+.linha{
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    
+}
+
+.item {
+    flex: 1; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    text-align: justify; 
+   
+}
+
+.item:hover{
+    background-color: rgb(69, 143, 83);
+    transition: 1s;
+    color: white;
+}
+
+
+.icones_services{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+.carrosel_imagem{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+
+
+.carrosel_text_color{
+    color: rgb(255, 255, 255);
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(24, 23, 23);
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    
+}
+
+.footer_icons{
+    width: 20px;
+    height: 20px;
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.email_h4{
+    color: white;
+    
+    flex-direction: column;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    
+}
+
+
+.galeria{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.galeria img{
+    max-width: 100%;  
+    height: auto;     
+    width: auto;      
+    margin: 0 auto;   
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.galeria_h4{
+    color: rgb(58, 146, 74);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 50px;
+}
