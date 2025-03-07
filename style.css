@@ -8,6 +8,14 @@ img{
     
 }
 
+.dropdown-item:focus,
+.dropdown-item:active {
+    background-color: green !important;
+    color: white !important;
+}
+
+
+
 body{
     background-color: rgb(207, 201, 201);
 }
@@ -50,9 +58,9 @@ main{
 }
 
 .perfil_imagem {
-    display: block;   /* Garante que a imagem respeite o margin: auto */
+    display: block;   
     max-width: 100%;  
-    height: auto;     /* Mantém a proporção da imagem */
+    height: auto;     
     width: auto;      
     margin: 0 auto;   
 }
